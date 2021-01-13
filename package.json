@@ -1,0 +1,20 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "An example set up to create a UI library with reusable components, npm support, typescript compatible and storybook to view created components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.1",
+    "react-dom": ">=17.0.1"
+  }
+}
