@@ -1,0 +1,111 @@
+$theme-colors: (
+  primary: #01689b,
+  light: #cce0f1,
+  lighter: #e5f0f9,
+  info: #CCE0F1,
+  success: #39870C,
+  warning: #EEA230,
+  danger: #D92321,
+  textColorSecondary: #0B1637,
+  textColorPrimary: #FFFFFF,
+  backgroundGray: #F3F3F3,
+  highlight: #81bdfa,
+);
+
+.subtitle {
+  font-weight: bold;
+  font-size: 1.375rem;
+  margin-bottom: 5px;
+}
+
+.border-top-2 {
+  border-top-style: solid;
+  border-top-width: 2px !important;
+}
+
+.border-bottom-2 {
+  border-bottom-style: solid;
+  border-bottom-width: 2px !important;
+}
+
+.custom-warning-bg {
+  background-color: #FFF4DC !important;
+}
+
+.custom-error-bg {
+  background-color: #F9DFDD !important;
+}
+
+.custom-error-bg-hover:hover {
+  background-color: #D92321 !important;
+  color: white !important;
+}
+
+.hint-text-color {
+  color: #4A4A4A;
+}
+
+
+$nav-height: 44px;
+$button-mobile-height: 38px;
+$nav-mobile-height: 38px;
+
+$line-height: 21px;
+$line-height-web-lg: 44px;
+$line-height-mobile-lg: 33px;
+
+$icon-width-small: 14px;
+$icon-height-small: 14px;
+
+$spacer: 30px !default;
+
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 5)
+);
+
+
+//
+// Color system
+//
+$white:  #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:  #000;
+
+$grays: (
+  100: $gray-100,
+  200: $gray-200,
+  300: $gray-300,
+  400: $gray-400,
+  500: $gray-500,
+  600: $gray-600,
+  700: $gray-700,
+  800: $gray-800,
+  900: $gray-900
+) !default;
+
+
+$enable-responsive-font-sizes: true !default;
+$enable-rounded: false !default;
+
+$border-width: 1px !default;
+
+$headings-margin-bottom:  0.5rem !default;
+
+p, li {
+  font-size: 1rem;
+}
+

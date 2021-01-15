@@ -1,5 +1,7 @@
+@import "../index.scss";
+
 .test-component {
-    background-color: white;
+    background-color: theme-color("light");
     border: 1px solid black;
     padding: 16px;
     width: 360px;
