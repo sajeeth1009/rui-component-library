@@ -21,7 +21,7 @@ describe('Test Component', () => {
     props.foo = ''
     const { getByTestId } = renderComponent()
 
-    const component = getByTestId('ClientMotoBar')
+    const component = getByTestId('client-moto-bar')
 
     expect(component).toHaveTextContent('Moto 1')
   })
